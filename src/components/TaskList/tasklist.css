@@ -1,0 +1,76 @@
+.tasklist {
+  padding: 8px;
+  border-radius: 2px;
+}
+
+.tasklist .title {
+  padding: 4px;
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0.1);
+  text-align: center;
+  border-radius: 4px;
+}
+
+.tasklist .content {
+  padding: 16px 4px;
+  display: flex;
+  flex-direction: column;
+}
+
+.tasklist .content .empty-list {
+  text-align: center;
+  border: 1px dashed white;
+  border-radius: 4px;
+  padding: 4px;
+}
+
+.tasklist .btn {
+  margin-top: 8px;
+  padding: 8px;
+  display: flex;
+  justify-content: center;
+  background: none;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  background: #00b8d4;
+  transition: background-color 0.3s;
+}
+
+.tasklist .btn:hover {
+  background-color: #0091a8;
+  cursor: pointer;
+}
+
+.tasklist .btn img {
+  width: 15px;
+  height: 15px;
+  margin-right: 4px;
+}
+
+.tasklist:nth-child(1) {
+  background-color: #5797b982;
+}
+
+.tasklist:nth-child(1) .title,
+.tasklist:nth-child(1) .btn {
+  background-color: #449ccb;
+}
+
+.tasklist:nth-child(2) {
+  background: #ffa50087;
+}
+
+.tasklist:nth-child(2) .title,
+.tasklist:nth-child(2) .btn {
+  background: orange;
+}
+
+.tasklist:nth-child(3) {
+  background: #80008030;
+}
+
+.tasklist:nth-child(3) .title,
+.tasklist:nth-child(3) .btn {
+  background: #4a0080;
+}
