@@ -22,4 +22,4 @@ E durante a criação de cada funcionalidade citada acima, os principais conceit
     - Renderizando Listas
 
     
-Visualizar o projeto [aqui](https://z4tlvk.csb.app/)
+[# Visualizar o projeto](https://react-kanban-snowy-sigma.vercel.app/)
